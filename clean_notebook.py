@@ -18,6 +18,6 @@ def clean_widget_metadata(notebook_path, output_path=None):
     print(f"Notebook cleaned: {output_path}")
 
 if __name__ == "__main__":
-    input_file = sys.argv[1]  # e.g., notebook.ipynb
+    input_file = sys.argv[1] 
     output_file = sys.argv[2] if len(sys.argv) > 2 else None
     clean_widget_metadata(input_file, output_file)
